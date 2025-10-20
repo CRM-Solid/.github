@@ -1,11 +1,6 @@
 # Telegram CRM Panel — End‑User Guide
 
-This guide explains how to use the Telegram CRM Panel from a regular user’s perspective. Admin-only pages are explicitly out of scope.
-
-## Audience & Prerequisites
-- You have access to the web app URL provided by your team.
-- A backend API must be running (your workspace will typically have this prepared by your team).
-- You either have a user account or can self-register (if enabled by your organization).
+This guide explains how to use the Telegram CRM Panel from a regular user’s perspective.
 
 ## Quick Start
 1) Open the app URL in your browser.
