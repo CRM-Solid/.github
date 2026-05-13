@@ -1,148 +1,110 @@
-# Telegram CRM Panel — End‑User Guide
+<div align="center">
 
-This guide explains how to use the Telegram CRM Panel from a regular user’s perspective.
+# CRM Solid
 
-## Quick Start
-1) Open the app URL in your browser.
-2) Sign up (Register) or Sign in.
-3) You will land on the Dashboard. Use the sidebar to navigate: Contacts, Sequences, Broadcasting, Templates, Jobs, Accounts, Billing, Analytics, Integrations, Settings, Help.
+**Omnichannel AI CRM for modern customer-facing teams.**
 
-## Navigation & UI Basics
-- Header: global search, notifications, theme toggle (light/dark), and user menu.
-- Sidebar: main modules. Active page is highlighted.
-- Global Search: quickly jump to contacts, jobs, or views. Keyboard shortcuts may be available (commonly Ctrl/Cmd+K).
-- Responsive: works on desktop, tablet, and mobile. Sidebar can collapse on small screens.
+Talk to customers on Telegram, X, Email, Live Chat and via Bot — from one inbox, one pipeline, one API.
 
-## Authentication
-- Register: provide required fields on the Register page and submit. If email verification is enforced by your organization, follow the instructions you receive.
-- Login: use your credentials on the Login page. On success, you will be redirected to the Dashboard.
+[Website](https://crmsolid.com) · [App](https://app.crmsolid.com) · [API Docs](https://crmsolid.com/docs) · [Status](https://health.crmsolid.com)
 
-## Dashboard (Home)
-The dashboard provides a quick overview of your activity and system status. You will typically find:
-- Summary cards (e.g., total contacts, active campaigns, recent jobs)
-- Recent activity feed and high-level charts
-- Shortcuts to common actions (e.g., “Go to Contacts”)
-
-## Contacts
-Manage your Telegram contacts and their journey through your funnel.
-
-Views
-- Pipeline: contacts are grouped in columns by stage. Drag-and-drop to move a contact to the next stage.
-- List: a compact table/list for quick scanning and bulk operations.
-- Archived: contacts you have archived; you can restore when needed.
-
-Search & Filters
-- Use the search box to find contacts by name, username, or other attributes.
-- Filters help narrow down by stage or recency.
-
-Importing Contacts
-- Open the Import action (e.g., “Import from Telegram”).
-- Choose the source account (one of your connected Telegram accounts).
-- Choose a time window (e.g., import last N days of dialogs/messages).
-- Start the import and follow the progress bar (processed dialogs/messages, any errors).
-- Note: Import may require an active subscription/plan. If features are locked, the UI will show a notice with upgrade guidance.
-
-Contact Profile & Notes
-- Open a contact to view details and add notes.
-- Edit notes inline and save. You can cancel edits to discard changes.
-
-Archive / Restore
-- Use archive to remove a contact from active workflows without deleting historical data.
-- Restore from Archive when needed.
-
-## Contact Detail (Chat)
-Open a contact to chat in real time and view the full message history.
-- Realtime chat: messages appear as they arrive; send replies instantly.
-- Message types: plain text; attachments may be available if enabled by your plan and backend.
-- Quick actions: jump to profile, stages, or related tasks.
-
-## Sequences (Campaigns)
-Automate multi-step outreach to your audience.
-
-Create & Manage
-1) Click “Create Sequence”, name your campaign, and select the sending account(s) if required.
-2) Upload targets (CSV) or select an existing target set.
-3) Add or select a template/spintax for message personalization.
-4) Start the sequence. You can pause/resume as needed.
-
-Statuses & Metrics
-- Each sequence shows status (e.g., Draft, Running, Paused, Completed) along with counts and progress.
-- Open a sequence to view recent sends, errors, and timing.
-
-Spintax Sets
-- Define reusable spintax keys for randomized text variants (e.g., {hello|hi|hey}).
-- Add a key and pipe-separated options; save the set.
-- Reference these in your templates to improve deliverability and reduce repetition.
-
-## Broadcasting (Bulk Send)
-Send one-off broadcasts to a target segment.
-1) Choose a target (list, imported segment, or selection).
-2) Pick a template or compose a message.
-3) Optionally schedule the send; otherwise send immediately.
-4) Track progress and outcomes on the Jobs page.
-
-## Templates
-Create and manage message templates used by Sequences and Broadcasting.
-- Rich editor: compose text and optionally use variables or spintax.
-- Best practices: keep messages short, personalized, and compliant with platform rules.
-- Versioning: if you need variations, duplicate and adjust.
-
-## Jobs
-Monitor background jobs such as sends, imports, and sequence runs.
-- Statuses: Queued, Running, Succeeded, Failed.
-- Drill down to see logs and error details.
-- Retry failed jobs if the action permits.
-
-## Accounts (Telegram)
-Connect and verify Telegram accounts used for messaging.
-
-Add & Verify
-1) Add an account with the phone number in international format.
-2) Request a verification code; enter the received code.
-3) If two‑factor authentication (2FA) is enabled, enter your password to complete verification.
-4) If the code expires, request a new one (respecting cooldown timers shown by the UI).
-
-Proxy (Optional)
-- Test a proxy for a given account to improve reliability based on your region/policies.
-- Review test results (latency/connectivity) before enabling.
-
-Enable/Disable
-- Temporarily disable an account from being used in sends if needed; re‑enable when ready.
-
-## Billing
-Manage your subscription plan and limits.
-- View available plans and current usage (e.g., max accounts, feature access).
-- Upgrade/downgrade as your needs change.
-- Renewal details and billing history (if exposed by your organization).
-
-## Analytics
-View key performance indicators such as sends, replies, and conversion trends.
-- Adjust date ranges and filters to focus on specific periods.
-- Use charts to identify what’s working and where to iterate.
-
-## Integrations
-Discover available integrations and follow the on‑screen steps to connect them.
-- Typical flow: open an integration card, read the description, click Connect/Configure, follow OAuth or API key steps.
-
-## Settings
-Personalize your experience.
-- Profile: update your display name and relevant preferences.
-- Preferences: toggle light/dark theme, adjust notification preferences.
-- Security: sign out from all devices (if available) and update password.
-
-## Help
-Find answers and support.
-- FAQ section for common questions.
-- Links to documentation or support channels provided by your team.
-
-## Tips & Troubleshooting
-- Feature Locked: If you see a lock banner, you may need an active subscription or a higher plan.
-- Import is slow: Keep the browser tab open; large imports can take time depending on your Telegram data size.
-- Message delivery issues: Verify the sending account is active and not rate‑limited; consider adjusting send cadence and using spintax.
-- Two‑factor issues: Ensure you have your 2FA password; request a new verification code if the previous one expired.
-- Proxy problems: Re‑test your proxy and check connectivity from your network location.
+</div>
 
 ---
-This guide covers the end‑user journey in the Telegram CRM Panel. For architecture and admin operations, see the corresponding documents in the main `DOCS` folder.
 
+## What CRM Solid is
 
+CRM Solid is an omnichannel customer relationship platform that unifies five conversation channels behind one CRM:
+
+- **Telegram** — multi-account, scraping, sequences, broadcasting
+- **X / Twitter** — DMs and account management
+- **Email** — per-user inbox, threading, templates
+- **Live Chat** — embeddable web widget for your site
+- **Bot** — programmable conversational workflows
+
+On top of the inbox sit AI-powered lead scoring, automated outreach sequences, a public REST API, and an MCP server so AI agents can drive the CRM directly.
+
+## Channels & capabilities
+
+| Area | What ships today |
+|---|---|
+| Inbox | Telegram, X/Twitter, Email, Live Chat, Bot — all in one pane |
+| Pipeline | Drag-and-drop stages, archive/restore, notes |
+| Outreach | Sequences, broadcasting, spintax, scheduling |
+| AI | Lead scoring, message analysis, reply suggestions |
+| Billing | LemonSqueezy + WeePay, per-plan limits |
+| Real-time | SignalR streams for inbox + job status |
+| Reliability | Rate limiting with flood-wait backoff, proxy support |
+
+## Developer surface
+
+| Product | What it is | Status |
+|---|---|---|
+| Public REST API v1 | Bearer-key + scoped endpoints for contacts, messages, sequences, accounts | Stable |
+| Webhooks | Outbound events for inbound messages, job status, billing | Stable |
+| MCP server | Lets AI agents (Claude, custom agents) drive the CRM via the Model Context Protocol | Planned |
+| OpenAPI spec | Machine-readable definition of the public API | Published in-product |
+
+## SDKs
+
+| SDK | Language | Status | Repo |
+|---|---|---|---|
+| `crmsolid-dotnet` | C# / .NET 8+ | Alpha | [CRM-Solid/crmsolid-dotnet](https://github.com/CRM-Solid/crmsolid-dotnet) |
+| `crmsolid-python` | Python 3.10+ | Planned | _coming soon_ |
+| `crmsolid-node` | TypeScript / Node 20+ | Planned | _coming soon_ |
+| `crmsolid-mcp` | TypeScript (MCP server reference) | Planned | _coming soon_ |
+
+## Get started
+
+### 1. Create an API key
+
+Sign in to https://app.crmsolid.com, open **Settings → Developers**, and generate a key. Each key is scoped — pick the smallest scope that matches your use case.
+
+### 2. Install a SDK (example: .NET)
+
+```bash
+dotnet add package CrmSolid
+```
+
+```csharp
+using CrmSolid;
+
+var client = new CrmSolidClient("csk_live_...");
+
+var page = await client.Contacts.ListAsync(limit: 50);
+
+foreach (var c in page.Items)
+{
+    Console.WriteLine($"{c.Id}\t{c.Name}\t@{c.Username}");
+}
+```
+
+> The .NET SDK is in alpha. The package name and exact API may change before v1.0.
+
+### 3. Read the docs
+
+Full REST reference, webhooks, and authentication: https://crmsolid.com/docs
+
+## Open-source repositories
+
+| Repo | Purpose | Status |
+|---|---|---|
+| [`.github`](https://github.com/CRM-Solid/.github) | Org profile, community health files | Live |
+| [`crmsolid-dotnet`](https://github.com/CRM-Solid/crmsolid-dotnet) | Official .NET SDK | Alpha |
+| `crmsolid-python` | Official Python SDK | Planned |
+| `crmsolid-node` | Official Node.js / TypeScript SDK | Planned |
+| `crmsolid-mcp` | MCP server reference implementation | Planned |
+| `crmsolid-docs` | Public docs site source | Planned |
+| `crmsolid-openapi` | OpenAPI spec mirror + generator | Planned |
+| `crmsolid-examples` | End-to-end examples across SDKs | Planned |
+
+Stars and issues on these repos are welcome once they ship.
+
+## Stay in touch
+
+- Website — https://crmsolid.com
+- App — https://app.crmsolid.com
+- Docs — https://crmsolid.com/docs
+- Support — info@crmsolid.com
+- Security — info@crmsolid.com _(dedicated security@ inbox coming soon)_
+- X / Twitter — [@crmsolid](https://x.com/crmsolid)
