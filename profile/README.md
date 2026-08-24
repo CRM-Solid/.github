@@ -42,7 +42,7 @@ On top of the inbox sit AI-powered lead scoring, automated outreach sequences, a
 |---|---|---|
 | Public REST API v1 | Bearer-key + scoped endpoints for contacts, messages, sequences, accounts | Stable |
 | Webhooks | Outbound events for inbound messages, job status, billing | Stable |
-| MCP server | Lets AI agents (Claude, custom agents) drive the CRM via the Model Context Protocol | Planned |
+| MCP server | Lets Claude, Cursor, ChatGPT and other AI clients drive the CRM over the Model Context Protocol | Stable |
 | OpenAPI spec | Machine-readable definition of the public API | Published in-product |
 
 ## SDKs
@@ -52,7 +52,13 @@ On top of the inbox sit AI-powered lead scoring, automated outreach sequences, a
 | `crmsolid-dotnet` | C# / .NET 8+ | Alpha | [CRM-Solid/crmsolid-dotnet](https://github.com/CRM-Solid/crmsolid-dotnet) |
 | `crmsolid-python` | Python 3.10+ | Planned | _coming soon_ |
 | `crmsolid-node` | TypeScript / Node 20+ | Planned | _coming soon_ |
-| `crmsolid-mcp` | TypeScript (MCP server reference) | Planned | _coming soon_ |
+| `crmsolid-mcp` | TypeScript (MCP server) | Alpha | [CRM-Solid/crmsolid-mcp](https://github.com/CRM-Solid/crmsolid-mcp) |
+
+## Guides
+
+| Repo | What it is |
+|---|---|
+| [CRM-Solid/mcp-social-media-guide](https://github.com/CRM-Solid/mcp-social-media-guide) | Vendor-neutral tutorials for running social media DMs and scheduled posts through MCP |
 
 ## Get started
 
