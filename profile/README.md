@@ -6,7 +6,7 @@
 
 Talk to customers on Telegram, X, Email, Live Chat and via Bot — from one inbox, one pipeline, one API.
 
-[Website](https://crmsolid.com) · [App](https://app.crmsolid.com) · [API Docs](https://crmsolid.com/docs) · [Status](https://health.crmsolid.com)
+[Website](https://crmsolid.com) · [App](https://app.crmsolid.com) · [Chrome Extension](https://chromewebstore.google.com/detail/crm-solid-clipper-save-le/mbdeafjdkhilgbdaoenggfamombmgpfm) · [API Docs](https://crmsolid.com/docs) · [Status](https://health.crmsolid.com)
 
 </div>
 
@@ -35,6 +35,7 @@ On top of the inbox sit AI-powered lead scoring, automated outreach sequences, a
 | Billing | LemonSqueezy + WeePay, per-plan limits |
 | Real-time | SignalR streams for inbox + job status |
 | Reliability | Rate limiting with flood-wait backoff, proxy support |
+| Browser extension | One-click capture from LinkedIn, X, Instagram, GitHub or any page, straight into the CRM |
 
 ## Developer surface
 
@@ -96,10 +97,11 @@ Full REST reference, webhooks, and authentication: https://crmsolid.com/docs
 | Repo | Purpose | Status |
 |---|---|---|
 | [`.github`](https://github.com/CRM-Solid/.github) | Org profile, community health files | Live |
+| [`crmsolid-clipper`](https://github.com/CRM-Solid/crmsolid-clipper) | Browser extension, full source of the published build | [Live on the Chrome Web Store](https://chromewebstore.google.com/detail/crm-solid-clipper-save-le/mbdeafjdkhilgbdaoenggfamombmgpfm) |
 | [`crmsolid-dotnet`](https://github.com/CRM-Solid/crmsolid-dotnet) | Official .NET SDK | Alpha |
 | `crmsolid-python` | Official Python SDK | Planned |
 | `crmsolid-node` | Official Node.js / TypeScript SDK | Planned |
-| `crmsolid-mcp` | MCP server reference implementation | Planned |
+| [`crmsolid-mcp`](https://github.com/CRM-Solid/crmsolid-mcp) | MCP server reference implementation | Alpha |
 | `crmsolid-docs` | Public docs site source | Planned |
 | `crmsolid-openapi` | OpenAPI spec mirror + generator | Planned |
 | `crmsolid-examples` | End-to-end examples across SDKs | Planned |
